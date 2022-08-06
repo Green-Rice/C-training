@@ -11,9 +11,9 @@ int value2 = Prompt("Введите второе число >");
 int value3 = value2 * value2;
 if (value1 == value3)
 {
-System.Console.WriteLine("Да");
+System.Console.WriteLine("Да, является квадратным корнем второго числа!");
 }
 else
 {
-System.Console.WriteLine("Нет");
+System.Console.WriteLine("Не является квадратным корнем второго числа");
 }
