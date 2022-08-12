@@ -10,7 +10,10 @@ int a = Prompt("Введите первое число >");
 int b = Prompt("Введите второе число >");
 int c = Prompt("Введите третье число >");
 int big = a;
-if ((a > b) && (a > c)) { big = a; }
-else if ((b > a) && (b > c)) { big = b; }
-else if ((c > a) && (c > b)) { big = c; }
+if ((a > b) && (a > c))
+{ big = a; }
+else if ((b > a) && (b > c))
+{ big = b; }
+else if ((c > a) && (c > b))
+{ big = c; }
 System.Console.WriteLine($"max = {big}");
